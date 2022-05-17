@@ -301,12 +301,17 @@ footer div {
     }
 }
 
-@media only screen and (min-width: 200px) and (max-width:430px){
-    header nav ul{
+@media only screen and (min-width: 200px) and (max-width:600px){
+    header{
         align-items: flex-start;
         flex-flow: column wrap;
         line-height: 1.0em;
         padding-top: 15px;
+    }
+
+    header nav ul{
+        align-items: flex-start;
+        flex-flow: column wrap;
     }
 
     header nav ul li {
