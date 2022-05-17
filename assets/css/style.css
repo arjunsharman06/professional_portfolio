@@ -300,3 +300,18 @@ footer div {
         width: 100%;
     }
 }
+
+@media only screen and (min-width: 200px) and (max-width:400px){
+    header nav ul{
+        align-items: flex-start;
+        flex-flow: column wrap;
+        line-height: 1.0em;
+        padding-top: 15px;
+    }
+
+    header nav ul li {
+        font-size: 1.25em;
+        border: 0;
+    }
+
+}
