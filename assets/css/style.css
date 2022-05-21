@@ -66,7 +66,27 @@ header nav ul li a {
 /* Jumbotron */
 .jumbotron {
     background-image: url("../images/jumbotron.jpg");
-    height: 15vh;
+    height: 25vh;
+}
+
+/* Profile Picture */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.profile-picture div{
+   
+    border: 8px solid #7097b2;
+    border-radius: 50%;
+    max-width: 300px;
+}
+.profile-picture div img{
+    max-width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
 }
 
 /* About Me*/
