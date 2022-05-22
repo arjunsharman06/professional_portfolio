@@ -1,6 +1,6 @@
 # Project Title
 
-Professional Potfolio of Full Stack Developer
+Professional Portfolio of Full Stack Developer
 
 
 ## Description
